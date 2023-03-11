@@ -20,7 +20,7 @@ body {
     margin: 0px;
 }
 .common-title{
-    font-size: 10vmax;
+    font-size: 10vmin;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,8 +40,8 @@ body {
 .title {
     display: inline-block;
     z-index: 1;
-    font-size: 5vmax;
-    margin-left: 5vmax;
+    font-size: 5vmin;
+    margin-left: 5vmin;
 }
 .cross {
     display: inline-block;
@@ -56,8 +56,8 @@ body {
 margin-left: auto;
 margin-right: auto;
 position: relative;
-width: 40vmax;
-height: 40vmax;
+width: 40vmin;
+height: 40vmin;
 background-image: url(./img/img1.png);
 background-position: center;
 background-size: cover;
@@ -67,8 +67,8 @@ background-size: cover;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 40vmax;
-    height: 40vmax;
+    width: 40vmin;
+    height: 40vmin;
     background-image: url(./img/img2.png);
     background-position: center;
     background-size: cover;
@@ -77,8 +77,8 @@ background-size: cover;
 #images3{
     margin-right: auto;
     position: relative;
-    width: 40vmax;
-    height: 40vmax;
+    width: 40vmin;
+    height: 40vmin;
     background-image: url(./img/img3.png);
     background-position: center;
     background-size: cover;
@@ -87,8 +87,8 @@ background-size: cover;
  #images4{
     margin-left: auto;
     position: relative;
-    width: 40vmax;
-    height: 40vmax;
+    width: 40vmin;
+    height: 40vmin;
     background-image: url(./img/img4.png);
     background-position: center;
     background-size: cover;
@@ -97,8 +97,8 @@ background-size: cover;
     #images5{
         margin-left: auto;
         position: relative;
-        width: 40vmax;
-        height: 40vmax;
+        width: 40vmin;
+        height: 40vmin;
         background-image: url(./img/img5.png);
         background-position: center;
         background-size: cover;
@@ -106,7 +106,7 @@ background-size: cover;
         }
 .work-section{
     z-index: 3;
-    height: 5.5vmax;
+    height: 5.5vmin;
     overflow: hidden;
     
 }
@@ -114,5 +114,5 @@ background-size: cover;
     display: block;
     cursor: pointer;
     color: blue;
-    height: 40vmax;
+    height: 40vmin;
 }
