@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=svap");
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+:root{box-sizing: border-box;
+    font-family:Roboto;
+    margin: 0px;
+    padding: 0px;
+    }
+*,::before,::after{box-sizing: inherit;}
+
+.main-field {
+    position: fixed;
+    background-color: #b1c91c1a;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.batle-section {
+
+    display: flex;
+    position: relative;
+    margin: 5vmin auto;
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #6bea5d1a;
+    border: 1px solid #844fd31a;
+}
