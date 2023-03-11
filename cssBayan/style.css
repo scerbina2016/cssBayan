@@ -19,14 +19,100 @@ body {
     height: 100vh;
     margin: 0px;
 }
+.common-title{
+    font-size: 10vmax;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .batle-section {
 
     display: flex;
+    flex-direction: column;
     position: relative;
     margin: 5vmin auto;
     width: 90vmin;
     height: 90vmin;
     background-color: #6bea5d1a;
     border: 1px solid #844fd31a;
+}
+
+.title {
+    display: inline-block;
+    z-index: 1;
+    font-size: 5vmax;
+    margin-left: 5vmax;
+}
+.cross {
+    display: inline-block;
+}
+
+.title:hover {
+    cursor: pointer;
+    /*color:blue*/
+}
+
+#images1{
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 40vmax;
+height: 40vmax;
+background-image: url(./img/img1.png);
+background-position: center;
+background-size: cover;
+}
+
+#images2{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 40vmax;
+    height: 40vmax;
+    background-image: url(./img/img2.png);
+    background-position: center;
+    background-size: cover;
+    }
+
+#images3{
+    margin-right: auto;
+    position: relative;
+    width: 40vmax;
+    height: 40vmax;
+    background-image: url(./img/img3.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    }
+ #images4{
+    margin-left: auto;
+    position: relative;
+    width: 40vmax;
+    height: 40vmax;
+    background-image: url(./img/img4.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    }
+    #images5{
+        margin-left: auto;
+        position: relative;
+        width: 40vmax;
+        height: 40vmax;
+        background-image: url(./img/img5.png);
+        background-position: center;
+        background-size: cover;
+        margin-right: auto;
+        }
+.work-section{
+    z-index: 3;
+    height: 5.5vmax;
+    overflow: hidden;
+    
+}
+.work-section:hover {
+    display: block;
+    cursor: pointer;
+    color: blue;
+    height: 40vmax;
 }
