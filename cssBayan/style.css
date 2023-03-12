@@ -19,6 +19,9 @@ body {
     height: 100vh;
     margin: 0px;
 }
+
+
+
 .common-title{
     font-size: 10vmin;
     margin-left: auto;
@@ -32,9 +35,10 @@ body {
     position: relative;
     margin: 5vmin auto;
     width: 90vmin;
-    height: 90vmin;
+    height: 90vh;
     background-color: #6bea5d1a;
     border: 1px solid #844fd31a;
+    transition: height 1s, transform 1s;/*==================================================*/
 }
 
 .title {
@@ -42,6 +46,7 @@ body {
     z-index: 1;
     font-size: 5vmin;
     margin-left: 5vmin;
+    margin-bottom: 3vh;
     
 }
 .cross {
@@ -108,10 +113,12 @@ background-size: cover;
         }
 .work-section{
     z-index: 3;
-    height: 5.5vmin;
+    height: 5.5vh;
     overflow: hidden;
      transition: height 1s, transform 1s;
 }
+
+
 .work-section:hover{
     display: block;
     cursor: pointer;
@@ -119,6 +126,16 @@ background-size: cover;
     height: 40vmin;
     transform:scaleY(40vmin), scaleX(40vmin);
 }
+.work-section:active{
+    opacity: 0.5;
+    display: block;
+    
+}
+.work-section:visited{
+    height: 40vmin;
+    
+}
+
 
 .cross {
     display: none;
@@ -148,4 +165,21 @@ background-size: cover;
 }
 .batle-section:hover .cross{
     display: inline-block;
+}
+
+.first-image{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 40vmin;
+    height: 40vmin;
+    background-image: url(./img/img1.png);
+    background-position: center;
+    background-size: cover;
+    transition: height 1s, transform 1s;
+    }
+.batle-section:hover .first-image{
+    width: 0;
+    height: 0;
+    transform:scaleY(40vmin), scaleX(40vmin);
 }
